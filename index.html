@@ -1,0 +1,1399 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="template-version" content="1.0.3">
+<title>Sanathan Rastra | Home</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon-yellow.png">
+<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+<link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+<link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+<link rel="stylesheet" href="assets/css/plugins/nouislider.min.css">
+<link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/vendor/odometer.min.css">
+<link rel="stylesheet" href="assets/css/vendor/fontawesome-pro.css">
+<link rel="stylesheet" href="assets/css/vendor/spacing.css">
+<link rel="stylesheet" href="assets/css/vendor/remixicon.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<body class="rs-smoother-yes rtl">
+
+    <header>
+
+        <div class="rs-header-area rs-header-five has-theme-yellow">
+            <div class="container-fluid g-0">
+                <div class="rs-header-inner">
+                    <div class="rs-header-left">
+                        <div class="rs-header-logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo/logo22.png" class="site-logo">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="rs-header-menu" id="mainMenu">
+                        <nav class="main-menu">
+                            <ul class="multipage-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <!-- Right Section -->
+                    <div class="rs-header-right">
+
+                        <!-- Donate Button -->
+                        <a class="blink-btn" href="#donate-seva">Donate Now</a>
+
+                        <!-- Hamburger / Close Toggle -->
+                        <div class="hamburger" onclick="toggleMenu()">
+
+                            <!-- Hamburger Icon -->
+                            <span id="menu-open">☰</span>
+
+                            <!-- Custom Close Icon -->
+                            <div id="menu-close" style="display:none;">
+                                <div class="offcanvas-close">
+                                    <button class="offcanvas-close-icon animation--flip">
+                                        <span class="offcanvas-m-lines">
+                                            <span class="offcanvas-m-line line--1"></span>
+                                            <span class="offcanvas-m-line line--2"></span>
+                                            <span class="offcanvas-m-line line--3"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <style>
+        .rs-header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+        }
+
+        /* Left Section */
+
+        .rs-header-left {
+            flex: 0 0 auto;
+        }
+
+        /* Logo */
+
+        .site-logo {
+            width: 130px;
+            height: 100px;
+            display: block;
+        }
+
+        /* Menu Center */
+
+        .rs-header-menu {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Right Section */
+
+        .rs-header-right {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        /* Donate Button */
+
+        .blink-btn {
+            background: red;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: bold;
+            text-decoration: none;
+            animation: blinkDonate 1s infinite alternate;
+        }
+
+        @keyframes blinkDonate {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0.5;
+            }
+        }
+
+        /* Hamburger */
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 28px;
+        }
+
+        /* Mobile */
+
+        @media(max-width:768px) {
+
+            .rs-header-menu {
+                display: none;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background: #fff;
+                padding: 20px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .multipage-menu {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+        }
+    </style>
+
+
+    <script>
+
+        function toggleMenu() {
+
+            let menu = document.getElementById("mainMenu");
+            let openIcon = document.getElementById("menu-open");
+            let closeIcon = document.getElementById("menu-close");
+
+            if (menu.style.display === "block") {
+
+                menu.style.display = "none";
+                openIcon.style.display = "inline";
+                closeIcon.style.display = "none";
+
+            } else {
+
+                menu.style.display = "block";
+                openIcon.style.display = "none";
+                closeIcon.style.display = "block";
+
+            }
+
+        }
+
+    </script>
+    <main>
+
+        <!-- banner area start -->
+        <section class="rs-banner-area rs-banner-eight rs-swiper">
+            <div class="rs-banner-slider-wrapper">
+                <div class="swiper" data-clone-slides="false" data-loop="true" data-speed="2000" data-autoplay="true"
+                    data-dots-dynamic="false" data-hover-pause="true" data-effect="fade" data-delay="3000" data-item="1"
+                    data-margin="30">
+                    <div class="swiper-wrapper process-counts">
+                        <div class="swiper-slide">
+                            <div class="rs-banner-item-wrapper">
+                                <div class="rs-banner-bg-thumb" data-background="assets/images/bg/fest2.jpg"
+                                    style="width:100%; height:1000px; background-size:cover; background-position:center; background-repeat:no-repeat;">
+                                </div>
+                                <div class="container">
+                                    <div class="row g-5">
+                                        <div class="col-xxl-7 col-xl-8 col-lg-10">
+                                            <div class="rs-banner-item">
+                                                <div class="rs-banner-content">
+
+                                                    <h1 class="rs-banner-title">Ram Krishna Mahotsav Awakening Dharma,
+                                                        Spreading Divine Blessings
+
+                                                    </h1>
+                                                    <div class="rs-banner-descrip">
+                                                        <p>
+                                                            Join the sacred mission of preserving Sanatan Dharma.
+                                                            Support temple seva, celebrate divine traditions, and offer
+                                                            your devotion to
+                                                            <strong>Shri Ram and Shri Krishna</strong>.
+                                                        </p>
+                                                    </div>
+                                                    <div class="rs-banner-btn">
+                                                        <a class="rs-btn has-theme-yellow has-icon has-bg"
+                                                            href="#donate-seva">Donate Now
+                                                            <span class="icon-box">
+                                                                <svg class="icon-first"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 32 32">
+                                                                    <path
+                                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                                                    </path>
+                                                                </svg>
+                                                                <svg class="icon-second"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 32 32">
+                                                                    <path
+                                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                                                    </path>
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="rs-banner-item-wrapper">
+                                <div class="rs-banner-bg-thumb" data-background="assets/images/bg/fest1.jpg"
+                                    style="width:100%; height:1000px; background-size:cover; background-position:center; background-repeat:no-repeat;">
+                                </div>
+                                <div class="container">
+                                    <div class="row g-5">
+                                        <div class="col-xxl-7 col-xl-8 col-lg-10">
+                                            <div class="rs-banner-item">
+                                                <div class="rs-banner-content">
+                                                    <h1 class="rs-banner-title">
+                                                        Strengthening Sanatan Dharma through
+                                                        Ram Krishna Mahotsav, Temple Seva
+                                                        & Devotee Participation
+                                                    </h1>
+                                                    <div class="rs-banner-descrip">
+                                                        <p>
+                                                            Celebrate sacred traditions, serve temples, and become a
+                                                            part of a divine mission that protects
+                                                            the spiritual heritage of Bharat.
+                                                        </p>
+                                                    </div>
+                                                    <div class="rs-banner-btn">
+                                                        <a class="rs-btn has-theme-yellow has-icon has-bg"
+                                                            href="#donate-seva">Donate Now
+                                                            <span class="icon-box">
+                                                                <svg class="icon-first"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 32 32">
+                                                                    <path
+                                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                                                    </path>
+                                                                </svg>
+                                                                <svg class="icon-second"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 32 32">
+                                                                    <path
+                                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                                                    </path>
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="rs-banner-navigation">
+                        <button class="swiper-button-prev rs-swiper-btn has-theme-black">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+
+                        <button class="swiper-button-next rs-swiper-btn has-theme-black">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <!-- if we need pagination -->
+                    <div class="rs-banner-pagination d-block d-md-none">
+                        <div class="swiper-pagination rs-pagination has-theme-yellow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner area end -->
+
+        <!-- feature area start -->
+        <section class="rs-feature-area rs-feature-six section-space">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                            <div class="rs-feature-bg-thumb">
+                                <img src="assets/images/about/sanatan_heritage.jpg" alt="service icon"
+                                    style="filter: blur(2px); width:auto; height: 400px;">
+                            </div>
+                            <div class="rs-feature-icon">
+                                <img src="assets/images/logo/logo3.png" alt="service icon">
+                            </div>
+                            <h5 class="rs-feature-title">Sanatan Dharma Heritage</h5>
+                            <div class="rs-feature-text">
+                                <p> Sanatan Dharma is the eternal spiritual path that guides humanity toward truth,
+                                    compassion, and righteousness.
+                                    Through sacred festivals and temple traditions we preserve the spiritual wisdom
+                                    that has guided Bharat for thousands of years.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                            <div class="rs-feature-bg-thumb">
+                                <img src="assets/images/about/Lord_rama.jpg" alt="service icon"
+                                    style="filter: blur(2px); width:auto; height: 400px;">
+                            </div>
+                            <div class="rs-feature-icon">
+                                <img src="assets/images/logo/logo4.png" alt="service icon">
+                            </div>
+                            <h5 class="rs-feature-title">Lord Rama’s Divine Legacy</h5>
+                            <div class="rs-feature-text">
+
+
+                                <p>
+                                    Lord Rama represents truth, courage, discipline, and perfect Dharma.
+                                    His life teaches us that righteousness always triumphs over injustice.
+
+                                    “रामो विग्रहवान् धर्मः”
+                                    Lord Rama is the embodiment of Dharma itself.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                            <div class="rs-feature-bg-thumb">
+                                <img src="assets/images/about/symbol.jpg" alt="service icon"
+                                    style="filter: blur(2px); width:auto; height: 400px;">
+                            </div>
+                            <div class="rs-feature-icon">
+                                <img src="assets/images/logo/logo2.png" alt="service icon">
+                            </div>
+                            <h5 class="rs-feature-title">Sacred Symbol of Victory</h5>
+                            <div class="rs-feature-text">
+
+                                <p>
+                                    Sacred symbols remind us of divine protection and blessings.
+                                    They represent victory of truth over darkness and inspire devotees
+                                    to walk the path of devotion and righteousness.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feature area end -->
+
+        <!-- about area start -->
+        <section class="rs-about-area section-space-bottom rs-about-eight">
+
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="rs-about-thumb-wrapper">
+                            <div class="rs-about-thumb img-one">
+                                <img src="assets/images/about/lord_krish (2).jpg" alt="image">
+                            </div>
+
+                            <div class="rs-about-thumb img-two">
+                                <img src="assets/images/about/lord_krish (1).jpg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="rs-about-wrapper">
+                            <div class="rs-about-content-wrapper">
+                                <div class="rs-section-title-wrapper">
+                                    <br>
+                                    <h2 class="rs-section-title rs-split-text-enable split-in-fade">The Divine Wisdom of
+                                        Lord Krishna</h2>
+                                    <p class="descrip">Lord Krishna, the divine guide of humanity, teaches the path of
+                                        devotion,
+                                        wisdom, and fearless action.
+
+                                        Through the Bhagavad Gita, Krishna reminds us that life’s true purpose is
+                                        to perform our duties with faith while surrendering the results to the Divine.
+
+                                        “कर्मण्येवाधिकारस्ते मा फलेषु कदाचन”
+
+                                        You have the right to perform your duty, but never to the fruits of your
+                                        actions.
+                                    </p>
+                                </div>
+                                <div class="rs-about-feature-list">
+                                    <div class="rs-list-item has-theme-yellow">
+                                        <ul>
+                                            <li>
+                                                <i class="fa-regular fa-check"></i>
+                                                Walk the path of Dharma with courage and devotion.
+
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-check"></i>
+                                                Trust the divine wisdom that guides every moment of life.
+
+                                            </li>
+
+                                            <li>
+                                                <i class="fa-regular fa-check"></i>
+                                                Serve society selflessly and perform your duty with dedication.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="rs-about-author-info">
+                                    <div class="rs-about-btn">
+                                        <p class="descrip">
+                                            When you donate, you are not just giving money —
+                                            you are offering sacred seva to Dharma.
+                                            <br>
+                                            Your contribution helps spread spiritual awareness,
+                                            support temples, and organize Ram Krishna Mahotsav
+                                            for devotees across India.
+                                        </p>
+                                        <a class="rs-btn has-icon has-theme-yellow has-bg" href="#donate-seva">Donate
+                                            Now
+
+                                            <span class="icon-box">
+                                                <svg class="icon-first" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 32 32">
+                                                    <path
+                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                                    </path>
+                                                </svg>
+                                                <svg class="icon-second" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 32 32">
+                                                    <path
+                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- progress area start -->
+        <section class="rs-progress-area rs-progress-two section-space">
+            <div class="rs-progress-bg-thumb" data-background="assets/images/bg/progress-bg-1.png"></div>
+
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-12">
+                        <div class="rs-progress-wrapper">
+                            <div class="rs-progress-thumb">
+                                <img src="assets/images/bg/old_mahimas.jpg" alt="image">
+                            </div>
+                            <div class="rs-progress-content-wrapper">
+                                <div class="rs-section-title-wrapper">
+
+                                    <h2 class="rs-section-title rs-split-text-enable split-in-fade mb-20">
+                                        Support Ram Krishna Mahotsav Donate for Dharma
+                                    </h2>
+                                    <p class="descrip">Every contribution you make becomes a powerful step toward
+                                        protecting temples,
+                                        spreading spirituality, and strengthening Sanatan culture for future
+                                        generations.
+                                        <br>
+                                        “धर्मो रक्षति रक्षितः”
+                                        Dharma protects those who protect Dharma.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial area start -->
+        <section class="rs-testimonial-area rs-testimonial-five rs-swiper">
+            <div class="rs-testimonial-bg-thumb" data-background="assets/images/bg/testimonials-bg-03.png"></div>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="rs-testimonial-section-wrapper">
+                            <div class="rs-section-title-wrapper">
+                                <h2 class="rs-section-title rs-split-text-enable split-in-fade mb-35">
+                                    How Your Contribution Creates Divine Impact
+                                </h2>
+                            </div>
+                            <a class="rs-btn has-icon has-theme-yellow has-bg" href="#donate-seva">Donate Now
+
+                                <span class="icon-box">
+                                    <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                        <path
+                                            d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                        </path>
+                                    </svg>
+                                    <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                        <path
+                                            d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="rs-testimonial-slider-wrapper">
+                            <div class="swiper" data-clone-slides="false" data-loop="true" data-speed="2000"
+                                data-autoplay="true" data-dots-dynamic="false" data-hover-pause="true"
+                                data-effect="false" data-delay="1500" data-item="2" data-item-xl="2" data-item-lg="2"
+                                data-item-md="2" data-item-sm="1" data-item-xs="1" data-item-mobile="1"
+                                data-margin="30">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="rs-testimonial-item">
+                                            <div class="rs-testimonial-content">
+                                                <div class="rs-testimonial-top">
+                                                    <div class="rs-testimonial-avater-wrapper">
+                                                        <div class="rs-testimonial-avater-thumb">
+                                                            <img src="assets/images/logo/rama_bow.png" alt="image">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-description">
+                                                    <p>Organizing Ram Krishna Mahotsav and sacred spiritual gatherings
+                                                    </p>
+                                                </div>
+                                                <div class="rs-testimonial-icon">
+                                                    <img src="assets/images/brand/ladi_bg1.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rs-testimonial-item">
+                                            <div class="rs-testimonial-content">
+                                                <div class="rs-testimonial-top">
+                                                    <div class="rs-testimonial-avater-wrapper">
+                                                        <div class="rs-testimonial-avater-thumb">
+                                                            <img src="assets/images/logo/temple.png" alt="image">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-description">
+                                                    <p>Restoring ancient temples and sacred spiritual places</p>
+                                                </div>
+                                                <div class="rs-testimonial-icon">
+                                                    <img src="assets/images/brand/future_temple.jpg" alt="image">
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rs-testimonial-item">
+                                            <div class="rs-testimonial-content">
+                                                <div class="rs-testimonial-top">
+                                                    <div class="rs-testimonial-avater-wrapper">
+                                                        <div class="rs-testimonial-avater-thumb">
+                                                            <img src="assets/images/logo/spirutual_icon.png"
+                                                                alt="image">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-description">
+                                                    <p>Providing facilities for devotees and pilgrims</p>
+                                                </div>
+                                                <div class="rs-testimonial-icon">
+                                                    <img src="assets/images/brand/festivale_gr.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="rs-testimonial-item">
+                                            <div class="rs-testimonial-content">
+                                                <div class="rs-testimonial-top">
+                                                    <div class="rs-testimonial-avater-wrapper">
+                                                        <div class="rs-testimonial-avater-thumb">
+                                                            <img src="assets/images/logo/icon.png" alt="image">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-description">
+                                                    <p>Supporting temple priests and daily spiritual rituals</p>
+                                                </div>
+                                                <div class="rs-testimonial-icon">
+                                                    <img src="assets/images/brand/ladi_bg2.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="rs-testimonial-item">
+                                            <div class="rs-testimonial-content">
+                                                <div class="rs-testimonial-top">
+                                                    <div class="rs-testimonial-avater-wrapper">
+                                                        <div class="rs-testimonial-avater-thumb">
+                                                            <img src="assets/images/logo/lotus_icon.png" alt="image">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-description">
+                                                    <p>Preserving Sanatan Dharma heritage for future generations</p>
+                                                </div>
+                                                <div class="rs-testimonial-icon">
+                                                    <img src="assets/images/brand/future_templ2.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="rs-protfolio-area section-space rs-portfolio-six">
+            <div class="rs-portfolio-bg-thumb" data-background="assets/images/bg/portfolio-bg.png"></div>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="rs-section-title-wrapper section-title-space">
+                            <h2 class="rs-section-title rs-split-text-enable split-in-fade">
+                                Celebrate Divine Festivals that Strengthen Dharma
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 process-counts">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="rs-portfolio-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+
+                            <img src="assets/images/logo/gudi_padwa.jpg">
+                            <div class="rs-portfolio-content">
+                                <div class="rs-portfolio-number"></div>
+                                <h5 class="rs-portfolio-title underline has-black">
+                                    <a href="about.html">Gudi Padwa Celebration Welcoming Prosperity and Divine
+                                        Blessings</a>
+                                </h5>
+
+                                <div class="rs-services-btn-wrapper">
+                                    <div class="rs-portfolio-text-btn underline has-black">
+                                        <a class="rs-text-btn" href="about.html">View
+                                            Details</a>
+                                    </div>
+                                    <a class="rs-square-btn has-icon has-light-bg has-black" href="about.html">
+                                        <span class="icon-box">
+                                            <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" width="12"
+                                                height="10" viewBox="0 0 12 10" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M0 5C0 4.60551 0.319797 4.28571 0.714286 4.28571L8.98985 4.28571L5.92349 1.21936C5.64455 0.940417 5.64455 0.488155 5.92349 0.209209C6.20244 -0.0697365 6.6547 -0.0697365 6.93365 0.209209L11.2194 4.49492C11.4983 4.77387 11.4983 5.22613 11.2194 5.50508L6.93365 9.79079C6.6547 10.0697 6.20244 10.0697 5.92349 9.79079C5.64455 9.51184 5.64455 9.05958 5.92349 8.78064L8.98985 5.71429L0.714286 5.71429C0.319797 5.71429 0 5.39449 0 5Z"
+                                                    fill="#616161"></path>
+                                            </svg>
+                                            <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" width="12"
+                                                height="10" viewBox="0 0 12 10" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M0 5C0 4.60551 0.319797 4.28571 0.714286 4.28571L8.98985 4.28571L5.92349 1.21936C5.64455 0.940417 5.64455 0.488155 5.92349 0.209209C6.20244 -0.0697365 6.6547 -0.0697365 6.93365 0.209209L11.2194 4.49492C11.4983 4.77387 11.4983 5.22613 11.2194 5.50508L6.93365 9.79079C6.6547 10.0697 6.20244 10.0697 5.92349 9.79079C5.64455 9.51184 5.64455 9.05958 5.92349 8.78064L8.98985 5.71429L0.714286 5.71429C0.319797 5.71429 0 5.39449 0 5Z"
+                                                    fill="#616161"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="rs-portfolio-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                            <img src="assets/images/logo/rama_navami.jpg">
+                            <div class="rs-portfolio-content">
+                                <div class="rs-portfolio-number"></div>
+                                <h5 class="rs-portfolio-title underline has-black">
+                                    <a href="about.html">Ram Navami Celebration Honoring the Birth of Maryada
+                                        Purushottam Shri Ram</a>
+                                </h5>
+
+                                <div class="rs-services-btn-wrapper">
+                                    <div class="rs-portfolio-text-btn underline has-black">
+                                        <a class="rs-text-btn" href="about.html">View
+                                            Details</a>
+                                    </div>
+                                    <a class="rs-square-btn has-icon has-light-bg has-black" href="about.html">
+                                        <span class="icon-box">
+                                            <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" width="12"
+                                                height="10" viewBox="0 0 12 10" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M0 5C0 4.60551 0.319797 4.28571 0.714286 4.28571L8.98985 4.28571L5.92349 1.21936C5.64455 0.940417 5.64455 0.488155 5.92349 0.209209C6.20244 -0.0697365 6.6547 -0.0697365 6.93365 0.209209L11.2194 4.49492C11.4983 4.77387 11.4983 5.22613 11.2194 5.50508L6.93365 9.79079C6.6547 10.0697 6.20244 10.0697 5.92349 9.79079C5.64455 9.51184 5.64455 9.05958 5.92349 8.78064L8.98985 5.71429L0.714286 5.71429C0.319797 5.71429 0 5.39449 0 5Z"
+                                                    fill="#616161"></path>
+                                            </svg>
+                                            <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" width="12"
+                                                height="10" viewBox="0 0 12 10" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M0 5C0 4.60551 0.319797 4.28571 0.714286 4.28571L8.98985 4.28571L5.92349 1.21936C5.64455 0.940417 5.64455 0.488155 5.92349 0.209209C6.20244 -0.0697365 6.6547 -0.0697365 6.93365 0.209209L11.2194 4.49492C11.4983 4.77387 11.4983 5.22613 11.2194 5.50508L6.93365 9.79079C6.6547 10.0697 6.20244 10.0697 5.92349 9.79079C5.64455 9.51184 5.64455 9.05958 5.92349 8.78064L8.98985 5.71429L0.714286 5.71429C0.319797 5.71429 0 5.39449 0 5Z"
+                                                    fill="#616161"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <div class="rs-video-area  rs-video-four jarallax">
+            <div class="rs-video-bg-thumb jarallax-img" data-background="assets/images/bg/snathan_heritage.jpg">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-8 col-md-10">
+                        <div class="rs-video-content">
+                            <div class="rs-section-title-wrapper">
+                                <h2 class="rs-section-title rs-split-text-enable split-in-fade">
+                                    Protecting Sanatan Dharma Heritage</h2>
+                                <span class="rs-section-subtitle has-theme-yellow justify-content-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewBox="0 0 11 15"
+                                        fill="none">
+                                        <path d="M3.14286 10L0 15L8.78104e-07 0L3.14286 5V10Z" fill="#EA5501"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M6.28571 10L3.14286 15L3.14286 10L4.71428 7.5L3.14286 5L3.14286 0L6.28571 5L6.28571 10ZM6.28571 10L7.85714 7.5L6.28571 5V0L11 7.5L6.28571 15V10Z"
+                                            fill="#EA5501"></path>
+                                    </svg>
+                                    Sanatan Trust is devoted to protecting the sacred heritage of Sanatan Dharma
+                                    and reviving spiritual traditions that connect millions of devotees to the
+                                    divine path.
+
+                                    Festivals like Gudi Padwa mark the beginning of a new spiritual cycle,
+                                    symbolizing hope, prosperity, and renewal.
+
+                                    Ram Navami celebrates the birth of Lord Rama, reminding us of righteousness,
+                                    discipline, and divine justice.
+
+                                    Through Ram Krishna Mahotsav we bring together devotees to celebrate
+                                    faith, devotion, and spiritual unity.
+
+                                    With your support we can restore temples, organize spiritual gatherings,
+                                    and ensure that the light of Dharma continues to guide future generations.
+
+                                    Together we can build a society rooted in devotion,
+                                    compassion, and spiritual wisdom.
+                                </span>
+
+                            </div>
+                            <div class="rs-video-btn-wrapper">
+                                <div class="rs-video-btn">
+                                    <a class="rs-btn has-theme-yellow has-icon has-bg" href="#donate-seva">
+                                        Donate Now
+                                        <span class="icon-box">
+                                            <svg class="icon-first" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 32 32">
+                                                <path
+                                                    d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                                </path>
+                                            </svg>
+                                            <svg class="icon-second" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 32 32">
+                                                <path
+                                                    d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <style>
+            .donate-card {
+                background: linear-gradient(135deg, #fff, #f9f9f9);
+                padding: 60px;
+                border-radius: 15px;
+                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+                transition: 0.4s;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .donate-card:before {
+                content: "";
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background: rgba(255, 106, 0, 0.1);
+                border-radius: 50%;
+                top: -80px;
+                right: -80px;
+            }
+
+            .donate-card:hover {
+                transform: translateY(-6px);
+            }
+
+            .donate-title {
+                font-size: 28px;
+                font-weight: 700;
+                color: #ff6a00;
+                margin-bottom: 5px;
+            }
+
+            .donate-subtitle {
+                color: #777;
+                margin-bottom: 30px;
+            }
+
+            /* SEVA OPTIONS */
+
+            .seva-title {
+                font-size: 20px;
+                font-weight: 700;
+                margin-bottom: 15px;
+                color: #ff6a00;
+            }
+
+            .seva-item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: #fff;
+                padding: 14px 16px;
+                margin-bottom: 12px;
+                border-radius: 10px;
+                border-left: 4px solid #ff6a00;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+                transition: 0.3s;
+            }
+
+            .seva-item:hover {
+                transform: translateX(5px);
+                box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+            }
+
+            .seva-item p {
+                font-size: 13px;
+                margin: 3px 0 0;
+                color: #777;
+            }
+
+            .seva-amount {
+                font-size: 18px;
+                font-weight: 700;
+                color: #ff6a00;
+                background: #fff3e9;
+                padding: 6px 12px;
+                border-radius: 6px;
+            }
+
+            /* UPI BOX */
+            .donate-card {
+                position: sticky;
+                top: 120px;
+            }
+
+            .donate-row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: #fff;
+                padding: 16px;
+                margin-top: 15px;
+                border-radius: 10px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            }
+
+            .copy-btn {
+                background: #ff6a00;
+                border: none;
+                color: #fff;
+                padding: 6px 10px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .qr-area {
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            .qr-area img {
+                width: 170px;
+                margin-top: 10px;
+                border-radius: 10px;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+
+        <section class="rs-work-step-area section-space rs-work-step-five">
+            <div class="rs-work-step-bg-thumb" data-background="assets/images/bg/work-process-02.png"></div>
+
+            <div class="container">
+
+                <div class="row align-items-start g-5">
+
+                    <!-- LEFT CONTENT -->
+
+                    <div class="col-xl-7 col-lg-7">
+
+                        <div class="rs-section-title-wrapper section-title-space">
+
+                            <h2 class="rs-section-title rs-split-text-enable split-in-fade" id="donate-seva">
+                                Offer Your Seva to Shri Ram
+                            </h2>
+
+                            <h3 class="donate-title">
+                                Your donation is not just a contribution — it is a sacred offering.
+                                By supporting Ram Krishna Mahotsav you help preserve temples
+                                and strengthen Sanatan Dharma.
+                            </h3>
+
+                            <p class="donate-subtitle">
+                                <strong>“यज्ञदानतपः कर्म न त्याज्यं कार्यमेव तत्”</strong>
+                            </p>
+
+                        </div>
+
+
+                        <div class="rs-work-step-wrapper process-counts">
+
+                            <div class="rs-work-step-item">
+                                <div class="rs-work-step-number-wrapper">
+                                    <span class="rs-work-step-number"></span>
+                                    <span class="rs-work-step-text">Offer Seva</span>
+                                </div>
+
+                                <h5 class="rs-work-step-title">Be a Part of a Sacred Mission</h5>
+
+                                <p class="descrip">
+                                    Every act of seva offered with devotion becomes a sacred offering to God.
+                                    Your contribution helps sustain temples and spiritual activities.
+                                </p>
+                            </div>
+
+
+                            <div class="rs-work-step-item">
+                                <div class="rs-work-step-number-wrapper">
+                                    <span class="rs-work-step-number"></span>
+                                    <span class="rs-work-step-text">Support Temples</span>
+                                </div>
+
+                                <h5 class="rs-work-step-title">Preserve Our Sacred Heritage</h5>
+
+                                <p class="descrip">
+                                    Your donation helps restore temples and maintain sacred traditions.
+                                </p>
+                            </div>
+
+
+                            <div class="rs-work-step-item">
+                                <div class="rs-work-step-number-wrapper">
+                                    <span class="rs-work-step-number"></span>
+                                    <span class="rs-work-step-text">Join Devotees</span>
+                                </div>
+
+                                <h5 class="rs-work-step-title">Offer Devotion Through Seva</h5>
+
+                                <p class="descrip">
+                                    Support satsangs, bhajans, and spiritual programs that unite devotees.
+                                </p>
+                            </div>
+
+
+                            <div class="rs-work-step-item">
+                                <div class="rs-work-step-number-wrapper">
+                                    <span class="rs-work-step-number"></span>
+                                    <span class="rs-work-step-text">Receive Blessings</span>
+                                </div>
+
+                                <h5 class="rs-work-step-title">Bless Future Generations</h5>
+
+                                <p class="descrip">
+                                    Your seva helps temples guide devotees toward peace and devotion.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- RIGHT DONATION CARD -->
+
+                    <div class="col-xl-5 col-lg-5">
+
+                        <div class="donate-card">
+
+                            <h4 class="seva-title">Choose Your Seva Contribution</h4>
+
+                            <div class="seva-item">
+                                <div>
+                                    <strong>Sanatan Sevak</strong>
+                                    <p>Begin your journey of seva.</p>
+                                </div>
+                                <span class="seva-amount" onclick="payDonation(1001)">₹1001</span>
+                            </div>
+
+                            <div class="seva-item">
+                                <div>
+                                    <strong>Rama Seva</strong>
+                                    <p>Support temple rituals.</p>
+                                </div>
+                                <span class="seva-amount" onclick="payDonation(5001)">₹5001</span>
+                            </div>
+
+                            <div class="seva-item">
+                                <div>
+                                    <strong>Dharma Seva</strong>
+                                    <p>Support spiritual programs.</p>
+                                </div>
+
+                                <span class="seva-amount" onclick="payDonation(7001)">₹7001</span>
+                            </div>
+
+                            <div class="seva-item">
+                                <div>
+                                    <strong>Krishna Seva</strong>
+                                    <p>Grand support for Mahotsav.</p>
+                                </div>
+                                <span class="seva-amount" onclick="payDonation(9001)">₹9001</span>
+
+                            </div>
+
+
+                            <div class="donate-row">
+                                <div>
+                                    <span>Copy UPI & Donate 🙏</span><br>
+                                    <strong>gpay-11240436436@okbizaxis</strong>
+                                </div>
+
+                                <button class="copy-btn" onclick="copyUPI()">
+                                    Copy
+                                </button>
+                            </div>
+
+
+                            <div class="qr-area">
+                                <div class="donate-icon">📷</div>
+
+                                <p>Scan QR Code and donate in the name of <strong>Jai Shri Ram</strong></p>
+                                <img src="assets/images/about/scanner.jpg" alt="QR Code">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ALERT MESSAGE -->
+        <style>
+            .donation-alert {
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                background: linear-gradient(135deg, #ff6a00, #ff9b4d);
+                color: #fff;
+                padding: 18px 22px;
+                border-radius: 10px;
+                font-size: 15px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+                transform: translateX(400px);
+                opacity: 0;
+                transition: all .5s ease;
+                z-index: 9999;
+            }
+
+            .show-alert {
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            .upi-link {
+                color: #fff;
+                background: #ff6a00;
+                padding: 4px 8px;
+                border-radius: 5px;
+                margin: 0 3px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+            .upi-link:hover {
+                background: #e65c00;
+            }
+        </style>
+        <div id="donationAlert" class="donation-alert">
+
+            <strong>Thank You for Supporting Dharma! UPI ID is Copied.</strong><br><br>
+
+            🙏 May Shri Ram and Shri Krishna bless you and your family
+            with peace, prosperity, and divine protection.<br><br>
+
+            Please complete your offering using
+
+            <b>
+                <span class="upi-link" onclick="openUPI()">PhonePe (Bank & Self A/c)</span>
+                or
+                <span class="upi-link" onclick="openUPI()">Google Pay (₹ Pay anyone)</span>
+                or
+                <span class="upi-link" onclick="showQR()">📷 Scan QR Code</span>
+            </b>
+
+            <br><br>
+            <b>🙏 Hare Krishna ❤️</b>
+
+        </div>
+        <script>
+
+            function copyUPI() {
+
+                const upi = "gpay-11240436436@okbizaxis";
+
+                navigator.clipboard.writeText(upi);
+
+                const alertBox = document.getElementById("donationAlert");
+
+                alertBox.classList.add("show-alert");
+
+                setTimeout(function () {
+                    alertBox.classList.remove("show-alert");
+                }, 50000);
+
+            }
+
+
+            function openUPI() {
+                window.location.href = "upi://pay?pa=gpay-11240436436@okbizaxis";
+            }
+
+
+            function showQR() {
+                document.querySelector(".qr-area").scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
+
+        </script>
+        <script>
+            function payDonation(amount) {
+
+                var options = {
+                    "key": "rzp_test_SQLmMZLrFSettT",
+                    "amount": amount * 100,
+                    "currency": "INR",
+                    "name": "RamaKrishna Seva",
+                    "description": "Seva Donation",
+                    "handler": function (response) {
+                        alert("🙏 Jai Shri Ram! Donation Successful");
+                    },
+                    "prefill": {
+                        "name": "",
+                        "email": "",
+                        "contact": ""
+                    },
+                    "theme": {
+                        "color": "#ff6b00"
+                    }
+                };
+
+                var rzp1 = new Razorpay(options);
+
+                rzp1.on('payment.failed', function (response) {
+                    alert("Payment Failed ❌");
+                    alert(response.error.description);
+                });
+
+                rzp1.open();
+
+            }
+        </script>
+    </main>
+
+    <div class="rs-footer-bg-thumb-wrapper has-theme-orange">
+        <div class="rs-footer-bg-thumb" style="background-image:url('assets/images/logo/rama_bg.jpg');"></div>
+
+        <!-- Subscribe / Donation Area -->
+        <div class="rs-subscribe-area rs-subscribe-one">
+            <div class="container">
+                <div class="rs-subscribe-wrapper">
+
+                    <div class="row align-items-center">
+
+                        <!-- Content -->
+                        <div class="col-xl-9 col-lg-9">
+                            <div class="rs-subscribe-content">
+                                <p class="subscribe-title" style="color:#f9f9f9;">
+                                    Stay Connected with <strong>Sanatan Dharma</strong>
+                                </p>
+
+
+                                <p style="color:#fff;margin-bottom:15px;">
+                                    Receive updates about temple development, Ram Krishna Mahotsav,
+                                    spiritual events, and seva opportunities.
+
+                                    Your support helps preserve sacred temples,
+                                    spread divine teachings, and strengthen Dharma for
+                                    future generations. 🙏
+                                </p>
+
+                                <div class="rs-subscribe-input">
+                                    <input type="email" placeholder="Enter Your Email for Spiritual Updates">
+                                    <button class="rs-btn has-theme-orange">Subscribe</button>
+                                </div>
+
+                                <!-- Donation CTA -->
+                                <div style="margin-top:15px;">
+                                    <a href="#donate-seva" class="rs-btn has-theme-orange">
+                                        🙏 Offer Your Seva
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Logo -->
+                        <div class="col-xl-3 col-lg-3 text-center">
+                            <div class="rs-subscribe-logo">
+                                <img src="assets/images/logo/logo22.png" alt="Sanatan Trust Logo" class="footer-logo">
+
+                                <p style="color:#fff;margin-top:10px;font-size:14px;">
+                                    “यज्ञदानतपः कर्म न त्याज्यं कार्यमेव तत्”
+                                    <br>
+                                    Charity and service must always be performed.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Footer Navigation -->
+                    <div class="footer-nav-wrapper">
+                        <ul class="footer-nav" style="color:#f9f9f9;">
+
+                            <var style="margin-right:20px;"><a href="index.html">HOME</a></var>
+                            <var style="margin-right:20px;"><a href="about.html">ABOUT US</a></var>
+                            <var style="margin-right:20px;"><a href="services.html">SERVICES</a></var>
+                            <var style="margin-right:20px;"><a href="#donate-seva">DONATE</a></var>
+                            <var><a href="contact.html">CONTACT</a></var>
+
+                        </ul>
+                    </div>
+
+                    <!-- Donation Reminder -->
+                    <div style="text-align:center;margin-top:20px;color:#fff;font-size:15px;">
+                        🙏 Even a small contribution offered with devotion
+                        becomes a sacred offering to Shri Ram and Shri Krishna.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <footer>
+            <div class="rs-footer-area rs-footer-two">
+
+                <div class="rs-footer-copyright-area rs-copyright-one">
+                    <div class="container">
+                        <div class="row justify-content-center">
+
+                            <div class="col-xl-12 text-center">
+
+                                <p class="copyright-text" style="color: #f9f9f9;">
+                                    © <span id="year">2026</span>
+                                    <strong>Jai Shree Ram</strong>.
+                                    Serving Sanatan Dharma with devotion.
+
+                                    Designed by <span class="brand">CRThemes</span>
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var settings = document.querySelector('.template-settings, .rs-theme-settings, .demo-settings');
+            if (settings) {
+                settings.style.display = "none";
+            }
+        });
+    </script>
+
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/meanmenu.min.js"></script>
+    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/vendor/magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <script src="assets/js/plugins/jarallax.min.js"></script>
+    <script src="assets/js/vendor/ajax-form.js"></script>
+    <script src="assets/js/plugins/easypie.js"></script>
+    <script src="assets/js/plugins/headding-title.js"></script>
+    <script src="assets/js/plugins/lenis.min.js"></script>
+    <script src="assets/js/plugins/gsap.min.js"></script>
+    <script src="assets/js/plugins/rs-anim-int.js"></script>
+    <script src="assets/js/plugins/rs-scroll-trigger.min.js"></script>
+    <script src="assets/js/plugins/rs-splitText.min.js"></script>
+    <script src="assets/js/plugins/jquery.lettering.js"></script>
+    <script src="assets/js/plugins/parallax-effect.min.js"></script>
+    <script src="assets/js/plugins/jquery.appear.min.js"></script>
+    <script src="assets/js/plugins/marquee.min.js"></script>
+    <script src="assets/js/plugins/chart.umd.min.js"></script>
+    <script src="assets/js/plugins/nouislider.min.js"></script>
+    <script src="assets/js/vendor/purecounter.js"></script>
+    <script src="assets/js/vendor/odometer.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
