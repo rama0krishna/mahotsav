@@ -1,0 +1,778 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="template-version" content="1.0.7">
+    <title>Faq || HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugins/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome-pro.css">
+    <link rel="stylesheet" href="assets/css/vendor/spacing.css">
+    <link rel="stylesheet" href="assets/css/vendor/remixicon.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="rs-smoother-yes">
+
+    <header>
+
+        <div class="rs-header-area rs-header-five has-theme-yellow">
+            <div class="container-fluid g-0">
+
+                <div class="rs-header-inner">
+
+                    <!-- Logo -->
+                    <div class="rs-header-left">
+                        <div class="rs-header-logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo/logo22.png" class="site-logo">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="rs-header-menu" id="mainMenu">
+                        <nav class="main-menu">
+                            <ul class="multipage-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="faq.html">Terms & Conditions</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <!-- Right Section -->
+                    <div class="rs-header-right">
+
+                        <!-- Donate Button -->
+                        <a class="blink-btn" href="#donate-seva">Donate Now</a>
+
+                        <!-- Hamburger / Close Toggle -->
+                        <div class="hamburger" onclick="toggleMenu()">
+
+                            <!-- Hamburger Icon -->
+                            <span id="menu-open">☰</span>
+
+                            <!-- Custom Close Icon -->
+                            <div id="menu-close" style="display:none;">
+                                <div class="offcanvas-close">
+                                    <button class="offcanvas-close-icon animation--flip">
+                                        <span class="offcanvas-m-lines">
+                                            <span class="offcanvas-m-line line--1"></span>
+                                            <span class="offcanvas-m-line line--2"></span>
+                                            <span class="offcanvas-m-line line--3"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <style>
+        /* Header Layout */
+
+        .rs-header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+        }
+
+        /* Left Section */
+
+        .rs-header-left {
+            flex: 0 0 auto;
+        }
+
+        /* Logo */
+
+        .site-logo {
+            width: 130px;
+            height: 100px;
+            display: block;
+        }
+
+        /* Menu Center */
+
+        .rs-header-menu {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Right Section */
+
+        .rs-header-right {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        /* Donate Button */
+
+        .blink-btn {
+            background: red;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: bold;
+            text-decoration: none;
+            animation: blinkDonate 1s infinite alternate;
+        }
+
+        @keyframes blinkDonate {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0.5;
+            }
+        }
+
+        /* Hamburger */
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 28px;
+        }
+
+        /* Mobile */
+
+        @media(max-width:768px) {
+
+            .rs-header-menu {
+                display: none;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background: #fff;
+                padding: 20px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .multipage-menu {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+        }
+    </style>
+
+
+    <script>
+
+        function toggleMenu() {
+
+            let menu = document.getElementById("mainMenu");
+            let openIcon = document.getElementById("menu-open");
+            let closeIcon = document.getElementById("menu-close");
+
+            if (menu.style.display === "block") {
+
+                menu.style.display = "none";
+                openIcon.style.display = "inline";
+                closeIcon.style.display = "none";
+
+            } else {
+
+                menu.style.display = "block";
+                openIcon.style.display = "none";
+                closeIcon.style.display = "block";
+
+            }
+
+        }
+
+    </script>
+
+    <main>
+
+        <!-- breadcrumb area start -->
+        <section class="rs-breadcrumb-area rs-breadcrumb-one p-relative">
+            <div class="rs-breadcrumb-bg"><img src="assets/images/brand/gudi_realimages.jpg" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-8 col-lg-8">
+                        <div class="rs-breadcrumb-content-wrapper">
+                            <div class="rs-breadcrumb-title-wrapper">
+                                <h1 class="rs-breadcrumb-title">Faq With Terms & Conditions</h1>
+                            </div>
+                            <div class="rs-breadcrumb-menu">
+                                <nav>
+                                    <ul>
+                                        <li><span> By accessing and using this website, you agree to follow the terms
+                                                and policies that govern the services and donations provided through
+                                                this platform.
+                                            </span></li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb area end -->
+
+        <!-- faq area start -->
+        <section class="rs-faq-area section-space">
+            <div class="container">
+                <div class="row  g-5 justify-content-center section-title-space align-items-center">
+                    <div class="col-xxl-8 col-xl-8 col-lg-9 col-md-10">
+                        <div class="rs-section-title-wrapper text-center">
+                            <span class="rs-section-subtitle has-theme-orange">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewBox="0 0 11 15"
+                                    fill="none">
+                                    <path d="M3.14286 10L0 15L8.78104e-07 0L3.14286 5V10Z" fill="#EA5501"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M6.28571 10L3.14286 15L3.14286 10L4.71428 7.5L3.14286 5L3.14286 0L6.28571 5L6.28571 10ZM6.28571 10L7.85714 7.5L6.28571 5V0L11 7.5L6.28571 15V10Z"
+                                        fill="#EA5501"></path>
+                                </svg>
+                                Question
+                            </span>
+                            <h2 class="rs-section-title rs-split-text-enable split-in-fade">Frequently Asked Questions
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="rs-faq-content rs-accordion-one">
+                            <div class="accordion-wrapper">
+                                <div class="accordion" id="accordionExampleOne">
+                                    <div class="rs-accordion-item">
+                                        <h4 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                01. Donation Policy
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h4>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            data-bs-parent="#accordionExampleOne">
+                                            <div class="accordion-body">
+                                                All donations made on this website are voluntary contributions intended
+                                                to support temple restoration, spiritual festivals, and Sanatan Dharma
+                                                initiatives.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rs-accordion-item">
+                                        <h6 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                02. Payment Processing Policy
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h6>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExampleOne">
+                                            <div class="accordion-body">
+
+                                                All online payments are securely processed through the trusted payment
+                                                gateway Razorpay using encrypted and secure banking systems.</div>
+                                        </div>
+                                    </div>
+                                    <div class="rs-accordion-item">
+                                        <h6 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                03. Refund and Cancellation Policy
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h6>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExampleOne">
+                                            <div class="accordion-body">
+
+                                                Donations are generally non-refundable since they support religious and
+                                                charitable activities. However, refunds may be considered in cases of
+                                                duplicate payments or technical transaction errors.</div>
+                                        </div>
+                                    </div>
+                                    <div class="rs-accordion-item">
+                                        <h6 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
+                                                04. Privacy and Data Protection
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h6>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExampleOne">
+                                            <div class="accordion-body">
+
+                                                All personal information shared during donations will remain
+                                                confidential and will only be used for transaction processing and
+                                                communication related to temple seva activities.</div>
+                                        </div>
+                                    </div>
+                                    <div class="rs-accordion-item">
+                                        <h6 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                aria-expanded="false" aria-controls="collapseFive">
+                                                05. How can I donate to support temple seva?
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h6>
+                                        <div id="collapseFive" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExampleOne">
+                                            <div class="accordion-body">
+
+                                                Devotees can contribute using secure online payment methods such as UPI,
+                                                debit cards, credit cards, or net banking through the payment gateway
+                                                Razorpay.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="rs-faq-content rs-accordion-one">
+                            <div class="accordion-wrapper">
+                                <div class="accordion" id="accordionExampleTwo">
+                                    <div class="rs-accordion-item">
+                                        <h4 class="accordion-header" id="headingSix">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSix" aria-expanded="true"
+                                                aria-controls="collapseSix">
+                                                06. Is my online donation secure?
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h4>
+                                        <div id="collapseSix" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExampleTwo">
+                                            <div class="accordion-body">
+
+                                                Yes, all transactions are protected by advanced security systems and
+                                                encryption to ensure safe and reliable payments
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rs-accordion-item">
+                                        <h6 class="accordion-header" id="headingSeven">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                                aria-expanded="false" aria-controls="collapseSeven">
+                                                07.What happens if my payment fails?
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h6>
+                                        <div id="collapseSeven" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExampleTwo">
+                                            <div class="accordion-body">
+
+                                                If your payment fails but the amount is deducted, the bank will
+                                                automatically refund the amount to your account within a few business
+                                                days.</div>
+                                        </div>
+                                    </div>
+                                    <div class="rs-accordion-item">
+                                        <h6 class="accordion-header" id="headingEight">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                                aria-expanded="false" aria-controls="collapseEight">
+                                                08. How will my donation be used?
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h6>
+                                        <div id="collapseEight" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExampleTwo">
+                                            <div class="accordion-body">
+
+                                                Your donation helps support temple restoration, sacred festivals such as
+                                                Ram Navami and Gudi Padwa, and other spiritual initiatives..</div>
+                                        </div>
+                                    </div>
+                                    <div class="rs-accordion-item">
+                                        <h6 class="accordion-header" id="headingNine">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                                aria-expanded="false" aria-controls="collapseNine">
+                                                09. Can I request a refund for my donation?
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h6>
+                                        <div id="collapseNine" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExampleTwo">
+                                            <div class="accordion-body">
+
+                                                Refund requests may be considered only in exceptional cases such as
+                                                duplicate payments or technical transaction issues.</div>
+                                        </div>
+                                    </div>
+                                    <div class="rs-accordion-item">
+                                        <h6 class="accordion-header" id="headingTen">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                                aria-expanded="false" aria-controls="collapseTen">
+                                                10. Will I receive confirmation after donating?
+                                                <span class="accordion-btn"></span>
+                                            </button>
+                                        </h6>
+                                        <div id="collapseTen" class="accordion-collapse collapse  show"
+                                            data-bs-parent="#accordionExampleTwo">
+                                            <div class="accordion-body">
+
+                                                Yes, donors receive an instant confirmation once the payment is
+                                                successfully completed.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faq area end -->
+
+        <!-- faq area two start -->
+        <section class="rs-faq-area section-space-bottom rs-faq-five">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="rs-faq-content-wrapper">
+                            <div class="rs-section-title-wrapper">
+                                <span class="rs-section-subtitle has-theme-orange justify-content-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewBox="0 0 11 15"
+                                        fill="none">
+                                        <path d="M3.14286 10L0 15L8.78104e-07 0L3.14286 5V10Z" fill="#EA5501"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M6.28571 10L3.14286 15L3.14286 10L4.71428 7.5L3.14286 5L3.14286 0L6.28571 5L6.28571 10ZM6.28571 10L7.85714 7.5L6.28571 5V0L11 7.5L6.28571 15V10Z"
+                                            fill="#EA5501"></path>
+                                    </svg>
+                                    Question
+                                </span>
+                                <h2 class="rs-section-title rs-split-text-enable split-in-fade">What services does Ram
+                                    Krishna Mahotsav provide?</h2>
+                                <p class="descrip">
+
+                                    Ram Krishna Mahotsav, organized by Sanatan Trust, is dedicated to preserving the
+                                    sacred heritage of Sanatan Dharma. Our services include temple restoration,
+                                    organizing spiritual festivals such as Ram Navami, Gudi Padwa, and Krishna-related
+                                    celebrations, supporting temple priests, and spreading dharmic awareness among
+                                    communities and devotees.
+
+
+
+                            </div>
+                            <div class="rs-faq-content rs-accordion-one has-white">
+                                <div class="accordion-wrapper">
+                                    <div class="accordion" id="accordionExampleThree">
+                                        <div class="rs-accordion-item">
+                                            <h4 class="accordion-header" id="headingEleven">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseEleven" aria-expanded="true"
+                                                    aria-controls="collapseEleven">
+                                                    02. How can I support Ram Krishna Mahotsav and temple development?
+                                                    <span class="accordion-btn"></span>
+                                                </button>
+                                            </h4>
+                                            <div id="collapseEleven" class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExampleThree">
+                                                <div class="accordion-body">
+
+                                                    Devotees can support Ram Krishna Mahotsav by making a voluntary
+                                                    donation through our secure online payment system powered by
+                                                    Razorpay. Your contribution helps maintain temples, conduct rituals,
+                                                    organize spiritual festivals, and support religious activities
+                                                    dedicated to Lord Ram and Lord Krishna.
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rs-accordion-item">
+                                            <h6 class="accordion-header" id="headingTwelve">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
+                                                    aria-expanded="false" aria-controls="collapseTwelve">
+                                                    03. Is my donation safe and secure?
+                                                    <span class="accordion-btn"></span>
+                                                </button>
+                                            </h6>
+                                            <div id="collapseTwelve" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExampleThree">
+                                                <div class="accordion-body">
+
+                                                    Yes. All donations made on the Ram Krishna Mahotsav website are
+                                                    processed securely through encrypted payment gateways provided by
+                                                    Razorpay to ensure safe and reliable transactions.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rs-accordion-item">
+                                            <h6 class="accordion-header" id="headingThirteen">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThirteen"
+                                                    aria-expanded="false" aria-controls="collapseThirteen">
+                                                    03. How will my donation be used?
+                                                    <span class="accordion-btn"></span>
+                                                </button>
+                                            </h6>
+                                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExampleThree">
+                                                <div class="accordion-body">
+
+                                                    Your donation helps support temple restoration, Ram Navami
+                                                    celebrations, Gudi Padwa festivals, Krishna bhajans and spiritual
+                                                    gatherings, maintenance of sacred temples, and services for devotees
+                                                    and pilgrims who participate in Ram Krishna Mahotsav events.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="rs-contact-form rs-contact-one has-black">
+                            <h3 class="rs-contact-form-title mb-10">Have Questions About Ram Krishna Mahotsav?</h3>
+                            <p class="descrip">
+                                Fill the form and our team will guide you.</p>
+                            <form id="contact-form" action="assets/mailer.php" method="POST">
+                                <div class="row g-4">
+                                    <div class="col-md-12">
+                                        <div class="rs-contact-input">
+                                            <input id="name" name="name" type="text" placeholder="Full Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="rs-contact-input">
+                                            <input id="email" name="email" type="email" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="rs-contact-input">
+                                            <input id="info" name="name" type="text" placeholder="Your Inquiry">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="rs-contact-input">
+                                            <textarea id="message" name="message"
+                                                placeholder="Write Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="rs-contact-btn">
+                                            <button type="submit" class="rs-btn has-theme-orange">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="form-messages"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faq area two end -->
+
+    </main>
+    <!-- Body main wrapper end -->
+
+    <div class="rs-footer-bg-thumb-wrapper has-theme-orange">
+        <div class="rs-footer-bg-thumb" style="background-image:url('assets/images/logo/rama_bg.jpg');"></div>
+
+        <!-- Subscribe / Donation Area -->
+        <div class="rs-subscribe-area rs-subscribe-one">
+            <div class="container">
+                <div class="rs-subscribe-wrapper">
+
+                    <div class="row align-items-center">
+
+                        <!-- Content -->
+                        <div class="col-xl-9 col-lg-9">
+                            <div class="rs-subscribe-content">
+
+                                <p class="subscribe-title" style="color:#f9f9f9;">
+                                    Stay Connected with <strong>Sanatan Dharma</strong>
+                                </p>
+
+                                <p style="color:#fff;margin-bottom:15px;">
+                                    Receive updates about temple development, Ram Krishna Mahotsav,
+                                    spiritual events, and seva opportunities.
+
+                                    Your support helps preserve sacred temples,
+                                    spread divine teachings, and strengthen Dharma for
+                                    future generations. 🙏
+                                </p>
+
+                                <div class="rs-subscribe-input">
+                                    <input type="email" placeholder="Enter Your Email for Spiritual Updates">
+                                    <button class="rs-btn has-theme-orange">Subscribe</button>
+                                </div>
+
+                                <!-- Donation CTA -->
+                                <div style="margin-top:15px;">
+                                    <a href="#donate-seva" class="rs-btn has-theme-orange">
+                                        🙏 Offer Your Seva
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Logo -->
+                        <div class="col-xl-3 col-lg-3 text-center">
+                            <div class="rs-subscribe-logo">
+                                <img src="assets/images/logo/logo22.png" alt="Sanatan Trust Logo" class="footer-logo">
+
+                                <p style="color:#fff;margin-top:10px;font-size:14px;">
+                                    “यज्ञदानतपः कर्म न त्याज्यं कार्यमेव तत्”
+                                    <br>
+                                    Charity and service must always be performed.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Footer Navigation -->
+                    <div class="footer-nav-wrapper">
+                        <ul class="footer-nav" style="color:#f9f9f9;">
+
+                            <var style="margin-right:20px;"><a href="index.html">HOME</a></var>
+                            <var style="margin-right:20px;"><a href="about.html">ABOUT US</a></var>
+                            <var style="margin-right:20px;"><a href="services.html">SERVICES</a></var>
+                            <var style="margin-right:20px;"><a href="#donate-seva">DONATE</a></var>
+                            <var style="margin-right:20px;"><a href="faq.html">Terms&Conditions</a></var>
+
+
+                            <var><a href="contact.html">CONTACT</a></var>
+
+                        </ul>
+                    </div>
+
+                    <!-- Donation Reminder -->
+                    <div style="text-align:center;margin-top:20px;color:#fff;font-size:15px;">
+                        🙏 Even a small contribution offered with devotion
+                        becomes a sacred offering to Shri Ram and Shri Krishna.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <footer>
+            <div class="rs-footer-area rs-footer-two">
+
+                <div class="rs-footer-copyright-area rs-copyright-one">
+                    <div class="container">
+                        <div class="row justify-content-center">
+
+                            <div class="col-xl-12 text-center">
+
+                                <p class="copyright-text" style="color: #f9f9f9;">
+                                    © <span id="year">2026</span>
+                                    <strong>Jai Shree Ram</strong>.
+                                    Serving Sanatan Dharma with devotion.
+
+                                    Designed by <span class="brand">CRThemes</span>
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <!-- JS here -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var settings = document.querySelector('.template-settings, .rs-theme-settings, .demo-settings');
+            if (settings) {
+                settings.style.display = "none";
+            }
+        });
+    </script>
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/meanmenu.min.js"></script>
+    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/vendor/magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <script src="assets/js/plugins/jarallax.min.js"></script>
+    <script src="assets/js/vendor/ajax-form.js"></script>
+    <script src="assets/js/plugins/easypie.js"></script>
+    <script src="assets/js/plugins/headding-title.js"></script>
+    <script src="assets/js/plugins/lenis.min.js"></script>
+    <script src="assets/js/plugins/gsap.min.js"></script>
+    <script src="assets/js/plugins/rs-anim-int.js"></script>
+    <script src="assets/js/plugins/rs-scroll-trigger.min.js"></script>
+    <script src="assets/js/plugins/rs-splitText.min.js"></script>
+    <script src="assets/js/plugins/jquery.lettering.js"></script>
+    <script src="assets/js/plugins/parallax-effect.min.js"></script>
+    <script src="assets/js/plugins/jquery.appear.min.js"></script>
+    <script src="assets/js/plugins/marquee.min.js"></script>
+    <script src="assets/js/plugins/chart.umd.min.js"></script>
+    <script src="assets/js/plugins/nouislider.min.js"></script>
+    <script src="assets/js/vendor/purecounter.js"></script>
+    <script src="assets/js/vendor/odometer.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener("contextmenu", e => e.preventDefault());
+
+        document.onkeydown = function (e) {
+            if (
+                e.keyCode == 123 || // F12
+                (e.ctrlKey && e.shiftKey && [73, 74, 67].includes(e.keyCode)) || // Ctrl+Shift+I/J/C
+                (e.ctrlKey && e.keyCode == 85) // Ctrl+U
+            ) {
+                return false;
+            }
+        };
+    </script>
+</body>
+
+</html>
